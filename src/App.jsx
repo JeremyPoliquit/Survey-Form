@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import CardInput from "./components/cardInput";
-import DefaultButton from './components/Buttons/defaultButton'
+
 
 function App() {
   const [formData, setFormData] = useState({
@@ -41,8 +41,6 @@ function App() {
           onChange={handleChange}
         />
 
-        <DefaultButton type="Next" />
-        <DefaultButton type="Back" />
 
       </form>
     </div>
