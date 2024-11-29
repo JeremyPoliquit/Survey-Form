@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function submitButton() {
+export default function submitButton({ label, onClick }) {
   return (
-    <button className='btn btn-success text-white'>
-        Submit
+    <button type='submit' onClick={onClick} className='btn btn-success text-white'>
+        {label}
     </button>
   )
 }
